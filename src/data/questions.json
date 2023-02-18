@@ -1,0 +1,18 @@
+[
+  {
+    "title": "Que es JavaScript?",
+    "id": "que-es-javascript",
+    "url": "/api/questions/que-es-javascript",
+    "content": "",
+    "code": "",
+    "resource": ""
+  },
+  {
+    "title": "Test",
+    "id": "test",
+    "url": "/api/questions/test",
+    "content": "test",
+    "code": "test",
+    "resource": "test"
+  }
+]
