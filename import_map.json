@@ -1,10 +1,12 @@
 {
   "imports": {
+    "$/": "./src/",
+    "dotenv/": "https://deno.land/std@0.177.0/dotenv/",
     "hono": "https://deno.land/x/hono@v2.7.7/mod.ts",
     "hono_middleware": "https://deno.land/x/hono@v2.7.7/middleware.ts",
-    "zod": "https://deno.land/x/zod@v3.20.5/mod.ts",
-    "testing": "https://deno.land/std@0.152.0/testing/asserts.ts",
+    "sdk_mongo": "https://deno.land/x/atlas_sdk@v1.1.0/mod.ts",
     "std/": "https://deno.land/std@0.174.0/",
-    "$/": "./src/"
+    "testing": "https://deno.land/std@0.152.0/testing/asserts.ts",
+    "zod": "https://deno.land/x/zod@v3.20.5/mod.ts"
   }
 }
