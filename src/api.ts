@@ -2,6 +2,7 @@ import { Hono } from "hono";
 import questionsRouter from "$/routes/questions/index.ts";
 import { ObjectId } from "sdk_mongo"
 import todos from "$/models/todos.ts"
+import coursesRouter from './routes/courses/index.ts';
 
 
 const apiRouter = new Hono()
@@ -19,6 +20,8 @@ apiRouter.get("/test", async (c) => {
 })
 
 apiRouter.route("/questions", questionsRouter)
+
+apiRouter.route("/courses", coursesRouter)
 
 
 

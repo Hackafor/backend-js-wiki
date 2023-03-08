@@ -13,14 +13,14 @@ const getQuestionsList = (c: Context) => {
 const getQuestion = (c: Context<"question", Environment, unknown>) => {
   const id = c.req.param('question')
 
-  const question: Question | undefined = getQuestionJson(id, questionsData)
+  const course: Question | undefined = getQuestionJson(id, questionsData)
 
-  if (!question) {
+  if (!course) {
     c.status(404)
     return c.body("not found")
   }
 
-  return c.json(question)
+  return c.json(course)
 }
 
 

@@ -5,6 +5,5 @@ export interface Question {
   id: string;
   content: string;
   code: string;
-  resource: string;
 }
 

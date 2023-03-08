@@ -1,0 +1,37 @@
+[
+	{
+		"title": "Curso de Javascript Moderno",
+		"id": "js-fernando",
+		"author": "Fernando Herrera",
+		"avatar": "https://i.postimg.cc/05h2JVxb/fernando.jpg",
+		"course": "Link al curso js-fernando"
+	},
+	{
+		"title": "Aprendiendo React con proyectos",
+		"id": "react-midu",
+		"author": "Midudev - Miguel Angel Duran",
+		"avatar": "https://unavatar.io/midudev",
+		"course": "Link al curso"
+	},
+	{
+		"title": "Curso de Javascript Dalto",
+		"id": "js-dalto",
+		"author": "Dalto",
+		"avatar": "https://unavatar.io/Soydalto",
+		"course": "Link al curso"
+	},
+	{
+		"title": "Curso de Javascript Desde Cero",
+		"id": "js-azaustre",
+		"author": "Carlos Azaustre",
+		"avatar": "https://unavatar.io/carlosazaustre",
+		"course": "Link al curso"
+	},
+	{
+		"title": "Curso de Javascript FreeCodeCamp",
+		"id": "js-freecamp",
+		"author": "Estefania Cassingena",
+		"avatar": "https://i.postimg.cc/bvSt1sWh/estefania.jpg",
+		"course": "Link al curso"
+	}
+]
