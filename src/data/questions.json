@@ -14,13 +14,13 @@
 	{
 		"title": "Que tipos de datos hay en Javascript",
 		"id": "tipos-datos-js",
-		"code": "\n        let numero = 8008\n\n        let salario = 100_000\n\n        let nombre = \"Mario Bros\"\n\n        let persona = {\n          nombre: 'Juan',\n          age: 40\n        }\n\n        let estado = null\n\n        let circuloCuadrado = undefined\n\n        let id = Symbol('identifier')\n\n      ",
+		"code": "\nlet numero = 8008\n\nlet salario = 100_000\n\nlet nombre = \"Mario Bros\"\n\nlet persona = {\n  nombre: 'Juan',\n  age: 40\n}\n\nlet estado = null\n\nlet circuloCuadrado = undefined\n\nlet id = Symbol('identifier')\n\n      ",
 		"url": "/api/questions/tipos-datos-js"
 	},
 	{
 		"title": "Que es this en Javascript",
 		"id": "this-js",
-		"code": "\n        const test = {\n          prop: 42,\n          func: function() {\n            return this.prop;\n          },\n        };\n        \n        console.log(test.func());\n        // Expected output: 42        \n      ",
+		"code": "\nconst test = {\n  prop: 42,\n  func: function() {\n    return this.prop;\n  },\n};\n\nconsole.log(test.func());\n// Expected output: 42        \n      ",
 		"url": "/api/questions/this-js"
 	}
 ]
