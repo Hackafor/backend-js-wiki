@@ -24,7 +24,23 @@ const getQuestion = (c: Context<"question", Environment, unknown>) => {
 }
 
 
+const searchQuestion = (c: Context<"query", Environment, unknown>) => {
+  const query = c.req.param('query')
+
+  const courses: Question[] | undefined = questionsData.filter((q) => q.title.toLocaleLowerCase().includes(query.toLocaleLowerCase()))
+
+  if (!courses) {
+    c.status(404)
+    return c.body("not found")
+  }
+
+  return c.json(courses)
+}
+
+
+
 export {
   getQuestionsList,
-  getQuestion
+  getQuestion,
+  searchQuestion
 }
