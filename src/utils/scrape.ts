@@ -61,22 +61,21 @@ export async function getLibraries() {
 
   const $ = cheerio.load(fileRaw)
 
-  const courses = []
-  $('.course').each((idx, el) => {
+  const libraries = []
+  $('.library').each((idx, el) => {
     const title = $(el).children('.title').text()
     const id = $(el).children('.id').text()
-    const author = $(el).children('.author').text()
-    const avatar = $(el).children('.author-avatar').attr('src')
-    const course = $(el).children('.link').text()
+    const logo = $(el).children('.logo').attr("src")
+    const page = $(el).children('.link').attr("href")
 
-    courses.push({
+    libraries.push({
       title,
       id,
-      author,
-      avatar,
-      course
+      logo,
+      page
     })
   })
 
-  Deno.writeTextFile(`${Deno.cwd()}/src/data/libraries.json`, JSON.stringify(courses, null, `\t`))
+  Deno.writeTextFile(`${Deno.cwd()}/src/data/libraries.json`, JSON.stringify(libraries, null, `\t`))
 }
+getLibraries()

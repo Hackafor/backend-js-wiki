@@ -1,0 +1,38 @@
+[
+	{
+		"title": "React",
+		"id": "react-js",
+		"logo": "https://i.postimg.cc/Jz1kTj43/reactjs-logo.png",
+		"page": "https://reactjs.org/"
+	},
+	{
+		"title": "Vue js",
+		"id": "vue-js",
+		"logo": "https://i.postimg.cc/yxQwwmCJ/vue.png",
+		"page": "https://vuejs.org/"
+	},
+	{
+		"title": "Angular",
+		"id": "angular-js",
+		"logo": "https://i.postimg.cc/YC1dF6D1/angular.png",
+		"page": "https://angular.io/"
+	},
+	{
+		"title": "Svelte",
+		"id": "svelte-js",
+		"logo": "https://i.postimg.cc/cCgmLw8t/svelte.png",
+		"page": "https://svelte.dev/"
+	},
+	{
+		"title": "Preact",
+		"id": "preact-js",
+		"logo": "https://i.postimg.cc/5NzhPFkt/preact.png",
+		"page": "https://preactjs.com/"
+	},
+	{
+		"title": "Fresh",
+		"id": "fresh-js",
+		"logo": "https://i.postimg.cc/3RW62yvY/fresh.png",
+		"page": "https://fresh.deno.dev/"
+	}
+]
