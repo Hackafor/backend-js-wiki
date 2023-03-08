@@ -15,6 +15,20 @@ app.get("/", (c) => c.json({
 
 app.route("/api", apiRouter);
 
+// 404 route
+app.notFound((c) => {
+  const { pathname } = new URL(c.req.url);
+
+  if (c.req.url.at(-1) === "/") {
+    return c.redirect(pathname.slice(0, -1));
+  }
+
+  return c.json({
+    msg: "404 not found",
+    suggestion: "try go to /api",
+  }, 404);
+});
+
 if (import.meta.main) await serve(app.fetch, { port: 8000 });
 
 export default app;

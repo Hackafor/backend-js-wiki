@@ -5,6 +5,8 @@ En este backend se expone al api de la javascript wiki
 
 ## Docs
 
+web page: 
+
 ### Preguntas tipicas de javascript
 
 ```
@@ -15,6 +17,12 @@ En este backend se expone al api de la javascript wiki
 
 ```
 /api/courses
+```
+
+### Librerias de javascript
+
+```
+/api/libraries
 ```
 
 ## Development
