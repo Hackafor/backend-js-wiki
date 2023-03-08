@@ -11,13 +11,14 @@ export async function getQuestions() {
     const title = $(el).children('.title').text()
     const id = $(el).children('.id').text()
     const code = $(el).children('.code').text()
+    const content = $(el).children('.content').text()
     const url = `/api/questions/${id}`
 
     questions.push({
       title,
       id,
       code,
-      url
+			content
     })
   })
 
