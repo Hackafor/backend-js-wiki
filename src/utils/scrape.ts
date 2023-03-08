@@ -18,7 +18,8 @@ export async function getQuestions() {
       title,
       id,
       code,
-			content
+			content,
+			url
     })
   })
 

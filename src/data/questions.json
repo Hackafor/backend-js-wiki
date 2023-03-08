@@ -3,24 +3,28 @@
 		"title": "Que es JavaScript",
 		"id": "que-es-js",
 		"code": "",
-		"content": "\n        JavaScript (JS) es un lenguaje de programación ligero, interpretado, o compilado justo-a-tiempo (just-in-time) con funciones de primera clase. Si bien es más conocido como un lenguaje de scripting (secuencias de comandos) para páginas web, y es usado en muchos entornos fuera del navegador, tal como Node.js, Apache CouchDB y Adobe Acrobat JavaScript es un lenguaje de programación basada en prototipos, multiparadigma, de un solo hilo, dinámico, con soporte para programación orientada a objetos, imperativa y declarativa \n      "
+		"content": "\n        JavaScript (JS) es un lenguaje de programación ligero, interpretado, o compilado justo-a-tiempo (just-in-time) con funciones de primera clase. Si bien es más conocido como un lenguaje de scripting (secuencias de comandos) para páginas web, y es usado en muchos entornos fuera del navegador, tal como Node.js, Apache CouchDB y Adobe Acrobat JavaScript es un lenguaje de programación basada en prototipos, multiparadigma, de un solo hilo, dinámico, con soporte para programación orientada a objetos, imperativa y declarativa \n      ",
+		"url": "/api/questions/que-es-js"
 	},
 	{
 		"title": "Donde se ejecuta Javascript",
 		"id": "ejecutar-js",
 		"code": "",
-		"content": "\n        JavaScript en un inicio solo se podia ejecutar en los navegadores, pero gracias al proyecto de nodejs en 2011 ahora podemos ejecutar JavaScript del lado del servidor, existen alternativas modernas a nodejs como Deno o Bun pero nodejs es el mas utilizado\n      "
+		"content": "\n        JavaScript en un inicio solo se podia ejecutar en los navegadores, pero gracias al proyecto de nodejs en 2011 ahora podemos ejecutar JavaScript del lado del servidor, existen alternativas modernas a nodejs como Deno o Bun pero nodejs es el mas utilizado\n      ",
+		"url": "/api/questions/ejecutar-js"
 	},
 	{
 		"title": "Que tipos de datos hay en Javascript",
 		"id": "tipos-datos-js",
 		"code": "\nlet numero = 8008\n\nlet salario = 100_000\n\nlet nombre = \"Mario Bros\"\n\nlet persona = {\n  nombre: 'Juan',\n  age: 40\n}\n\nlet estado = null\n\nlet circuloCuadrado = undefined\n\nlet id = Symbol('identifier')\n\n      ",
-		"content": "\n        En JavaScript hay varios tipos de datos. Según el último estándar ECMAScript, existen nueve tipos de datos12. Hay seis tipos de datos primitivos: Undefined (representa una variable que no ha sido declarada o a la cual no se le ha asignado un valor) 3, Boolean (representa un valor lógico y puede tener dos valores: true o false) 3, Number (permite representar y manipular valores numéricos como «37» o «-9.25») 3, String (representa datos textuales o cadenas de caracteres) 3, BigInt (para números enteros de longitud arbitraria) 4 , Null y Symbol, ademas del Object.\n      "
+		"content": "\n        En JavaScript hay varios tipos de datos. Según el último estándar ECMAScript, existen nueve tipos de datos12. Hay seis tipos de datos primitivos: Undefined (representa una variable que no ha sido declarada o a la cual no se le ha asignado un valor) 3, Boolean (representa un valor lógico y puede tener dos valores: true o false) 3, Number (permite representar y manipular valores numéricos como «37» o «-9.25») 3, String (representa datos textuales o cadenas de caracteres) 3, BigInt (para números enteros de longitud arbitraria) 4 , Null y Symbol, ademas del Object.\n      ",
+		"url": "/api/questions/tipos-datos-js"
 	},
 	{
 		"title": "Que es this en Javascript",
 		"id": "this-js",
 		"code": "\nconst test = {\n  prop: 42,\n  func: function() {\n    return this.prop;\n  },\n};\n\nconsole.log(test.func());\n// Expected output: 42        \n      ",
-		"content": "\n        El valor de this está determinado por cómo se invoca a la función. No puede ser establecida mediante una asignación en tiempo de ejecución, y puede ser diferente cada vez que la función es invocada. \n      "
+		"content": "\n        El valor de this está determinado por cómo se invoca a la función. No puede ser establecida mediante una asignación en tiempo de ejecución, y puede ser diferente cada vez que la función es invocada. \n      ",
+		"url": "/api/questions/this-js"
 	}
 ]
