@@ -15,6 +15,6 @@ app.get("/", (c) => c.json({
 
 app.route("/api", apiRouter);
 
-if (import.meta.main) await serve(app.fetch, { port: 3000 });
+if (import.meta.main) await serve(app.fetch, { port: 8000 });
 
 export default app;
