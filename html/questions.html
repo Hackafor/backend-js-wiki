@@ -28,22 +28,22 @@
         En JavaScript hay varios tipos de datos. Según el último estándar ECMAScript, existen nueve tipos de datos12. Hay seis tipos de datos primitivos: Undefined (representa una variable que no ha sido declarada o a la cual no se le ha asignado un valor) 3, Boolean (representa un valor lógico y puede tener dos valores: true o false) 3, Number (permite representar y manipular valores numéricos como «37» o «-9.25») 3, String (representa datos textuales o cadenas de caracteres) 3, BigInt (para números enteros de longitud arbitraria) 4 , Null y Symbol, ademas del Object.
       </div>
       <code class="code" lang="javascript">
-        let numero = 8008
+let numero = 8008
 
-        let salario = 100_000
+let salario = 100_000
 
-        let nombre = "Mario Bros"
+let nombre = "Mario Bros"
 
-        let persona = {
-          nombre: 'Juan',
-          age: 40
-        }
+let persona = {
+  nombre: 'Juan',
+  age: 40
+}
 
-        let estado = null
+let estado = null
 
-        let circuloCuadrado = undefined
+let circuloCuadrado = undefined
 
-        let id = Symbol('identifier')
+let id = Symbol('identifier')
 
       </code>
     </li>
@@ -54,15 +54,15 @@
         El valor de this está determinado por cómo se invoca a la función. No puede ser establecida mediante una asignación en tiempo de ejecución, y puede ser diferente cada vez que la función es invocada. 
       </div>
       <code class="code" lang="javascript">
-        const test = {
-          prop: 42,
-          func: function() {
-            return this.prop;
-          },
-        };
-        
-        console.log(test.func());
-        // Expected output: 42        
+const test = {
+  prop: 42,
+  func: function() {
+    return this.prop;
+  },
+};
+
+console.log(test.func());
+// Expected output: 42        
       </code>
     </li>
   </ul>
